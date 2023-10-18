@@ -3,8 +3,16 @@
     .logo_image_small{
         width: 180px;
     }
-    .icon_right{
-        left: unset;
-        right: 0;
-      }
+    .search-block{
+        position: relative;
+        width: 280px;
+        .icon_right{
+            left: unset;
+            right: 0;
+            position: absolute;
+            z-index: 3;
+            cursor: pointer;
+          }
+    }
+    
 }

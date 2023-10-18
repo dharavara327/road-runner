@@ -23,7 +23,7 @@ const LayoutHeader = () => {
               </Text>
             </Flex>
 
-          <Box width={"280px"}>
+          <Box  className="search-block">
             <InputGroup>
               <Input
                 type="tel"
@@ -32,7 +32,7 @@ const LayoutHeader = () => {
                 py={5}
                 borderColor={"#EFF3FE"}
               />
-              <InputLeftElement pointerEvents="none" className="icon_right">
+              <InputLeftElement className="icon_right">
                 <FiSearch color="#999999" size={18} />
               </InputLeftElement>
             </InputGroup>

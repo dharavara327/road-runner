@@ -23,7 +23,7 @@ import Box3 from "../../assets/images/retrofit.png";
 
 const BannerCmp = () => {
   return (
-    <Grid   templateColumns={{ base: "1fr", md: "1fr 1fr", lg: "1fr 1fr 1fr", '2xl': "1fr 1fr 1fr 1fr" }} gap={6} px={6} mt={10}>
+    <Grid   templateColumns={{ base: "1fr", md: "1fr 1fr", lg: "1fr 1fr 1fr", '2xl': "1fr 1fr 1fr 1fr" }} gap={6} px={6} mt={10} mb={10}>
       <GridItem w="100%">
         <Card
           borderColor={"#EFF3FE"}
