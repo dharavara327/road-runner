@@ -16,7 +16,7 @@ const LayoutHeader = () => {
   return (
     <header className="rr_top_header">
       <Box bg={useColorModeValue("white", "white")} px={6} py={2}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+        <Flex h={16} alignItems={"center"} justifyContent={"space-between"} gap="6">
             <Flex gap="6" align="center">
               <Text fontSize={{base: '2xl' , xl: '5xl'}} fontWeight="600" fontFamily="Poppins" cursor={'pointer'}>
                 Brands
