@@ -12,13 +12,13 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { HiOutlinePencil } from "react-icons/hi2";
-import { CgImport, CgExport } from "react-icons/cg";
+import { CgExport } from "react-icons/cg";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { GrRevert, GrRedo } from "react-icons/gr";
 
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import "../assets/scss/header.scss";
-import LogoIcon from "../assets/images/logo.png";
+import "../../assets/scss/header.scss";
+import LogoIcon from "../../assets/images/logo.png";
 
 const DesignHeader = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
