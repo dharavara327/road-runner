@@ -17,8 +17,8 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 import { GrRevert, GrRedo } from "react-icons/gr";
 
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import "../assets/scss/header.scss";
-import LogoIcon from "../assets/images/logo.png";
+import "../../assets/scss/header.scss";
+import LogoIcon from "../../assets/images/logo.png";
 
 const DesignHeader = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
