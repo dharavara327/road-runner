@@ -12,7 +12,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { HiOutlinePencil } from "react-icons/hi2";
-import { CgImport, CgExport } from "react-icons/cg";
+import { CgExport } from "react-icons/cg";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { GrRevert, GrRedo } from "react-icons/gr";
 
